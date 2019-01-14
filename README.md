@@ -21,7 +21,7 @@ create machine learing pip-line to build model
 
 predict test data and evaluate the model
 
-## What I complished 
+## What I accomplished 
 
 Compose the project
 
