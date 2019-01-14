@@ -4,9 +4,9 @@ Build prediction model to predict what events users will be interested in based 
 
 ## Developing Enviroment
 
-  hortonwork sandbox:Kafka,Spark,HDFS
-  cassandra container
-  Nifi container
+  hortonwork sandbox:Kafka,Spark,HDFS/
+  cassandra container/
+  Nifi container/
   intellij with scala plug-in
   
 ## Project Details
