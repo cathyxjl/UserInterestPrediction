@@ -21,7 +21,7 @@ predict test data and evaluate the model
 
 Compose the project
 Cleaned and Transformed event_attendees_raw into 
-event_attendees,event_attendee_count,user_attend_summary,user_attend_count,and save into cassandra
-still working on other components
+event_attendees,event_attendee_count,user_attend_summary,user_attend_count,and save into cassandra.
+I am still working on other components
 
     
