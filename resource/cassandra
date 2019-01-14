@@ -1,0 +1,9 @@
+create keyspace events with replication={'class':'SimpleStrategy','replication_factor':1};
+
+create table events.event_attendees(id text, eventid text,userid text, attend_type text, primary key(id));
+
+create table events.event_attendee_count(id BigInt,eventid text, attend_type text, count BigInt ,primary key(id));
+
+create table events.user_attend_summary(id BigInt, eventid text, userid text,invited Int,attended Int,not_attend Int,maybe_attend Int ,primary key(id));
+
+create table events.user_attend_count(userid text,invited_count BigInt,attended_count BigInt,not_attend_count BigInt,maybe_attend_count BigInt ,primary key(userid));
